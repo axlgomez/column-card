@@ -1,0 +1,110 @@
+@media screen and (min-width: $desktop){
+    .card
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 50px;
+
+        .card__one
+        {
+            border-radius: 10px 0 0 10px;
+            width: 290px;
+
+            .card__content
+            {
+                h2
+                {
+                    font-size: 35px;
+                }
+
+                p 
+                {
+                    font-size: 14px;
+                    width: 190px;
+                    line-height: 1.7;
+                    padding-bottom: 50px;
+                }
+
+                button
+                {
+                    padding: 12px 24px;
+
+                    &:hover
+                    {
+                        background-color: $bright-orange;
+                        border: 2px solid $very-light-gray;
+                        color: $very-light-gray;
+                    }
+                }
+            }
+        }
+
+        .card__two
+        {
+            width: 290px;
+
+            .card__content
+            {
+                h2
+                {
+                    font-size: 35px;
+                }
+
+                p 
+                {
+                    font-size: 14px;
+                    width: 195px;
+                    line-height: 1.7;
+                    padding-bottom: 50px;
+                }
+
+                button
+                {
+                    padding: 12px 24px;
+
+                    &:hover
+                    {
+                        background-color: $dark-cyan;
+                        border: 2px solid $very-light-gray;
+                        color: $very-light-gray;
+                    }
+                }
+            }
+        }
+
+        .card__three
+        {
+            border-radius: 0 10px 10px 0;
+            width: 290px;
+
+            .card__content
+            {
+                h2
+                {
+                    font-size: 35px;
+                }
+
+                p 
+                {
+                    font-size: 14px;
+                    width: 195px;
+                    line-height: 1.7;
+                    padding-bottom: 50px;
+                }
+
+                button
+                {
+                    padding: 12px 24px;
+
+                    &:hover
+                    {
+                        background-color: $very-dark-cyan;
+                        border: 2px solid $very-light-gray;
+                        color: $very-light-gray;
+                    }
+                }
+            }
+        }
+    }
+}
